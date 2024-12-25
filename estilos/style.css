@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*
+verde: #49a09d
+lilas: #5f2c82
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+}
+
+section.login {
+    background-color: white;
+    height: 500px;
+    width: 250px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.513);
+}
+
+div.imagem {
+    display: block;
+
+    background: #5f2c82 url(../imagens/pexels-danila-rusanov-68267594-9228600.jpg) no-repeat left center;
+    background-size: cover;
+
+    height: 200px;
+}
+
+div.formulario {
+    display: block;
+
+    padding: 10px;
+}
+
+div.formulario > p {
+    text-align: justify;
+}
+
