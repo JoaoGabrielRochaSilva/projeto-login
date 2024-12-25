@@ -9,6 +9,7 @@ lilas: #5f2c82
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -39,8 +40,10 @@ section.login {
     overflow: hidden;
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.513);
-}
 
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
 div.imagem {
     display: block;
 
@@ -52,11 +55,8 @@ div.imagem {
 
 div.formulario {
     display: block;
-
+    text-align: center;
     padding: 10px;
 }
 
-div.formulario > p {
-    text-align: justify;
-}
 
